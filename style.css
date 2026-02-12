@@ -1,0 +1,78 @@
+/* Dark Theme & Layout */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #050505;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Glassmorphism Card */
+.card {
+    position: relative;
+    z-index: 10;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    width: 350px;
+}
+
+/* Neon Glitch Text */
+.glitch {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00f2ff;
+    position: relative;
+    text-shadow: 0 0 10px #00f2ff;
+}
+
+.subtitle {
+    letter-spacing: 2px;
+    color: #888;
+    margin-top: 5px;
+}
+
+#percent {
+    color: #ff0055;
+    font-weight: bold;
+}
+
+/* Interactive Button */
+.status-badge {
+    margin-top: 30px;
+    padding: 12px 25px;
+    border: 2px solid #00f2ff;
+    color: #00f2ff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+.status-badge:hover {
+    background: #00f2ff;
+    color: #000;
+    box-shadow: 0 0 30px #00f2ff;
+}
+
+/* Quote Section */
+.quote-box {
+    margin-top: 30px;
+    min-height: 60px;
+}
+
+#quote {
+    font-style: italic;
+    color: #00ff88;
+    transition: opacity 0.5s;
+}
