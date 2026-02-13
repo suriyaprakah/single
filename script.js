@@ -1,10 +1,11 @@
 const quotes = [
     "Single is not a status, it's a word that describes a person who is strong enough to live and enjoy life without depending on others.",
     "My life. My rules. My attitude.",
-    "Why fall in love when you can fall asleep?",
+    "Being single isn’t a weakness.It’s a standard.😎🔥",
     "Single: Stress Is Now Gone Life Enjoyed.",
     "I'm always single.",
-    "Valentine's Day? You mean Discount Chocolate Eve?"
+    "I don’t change for anyone.",
+    "Single by choice.Standard by attitude."
 ];
 
 const vibeBtn = document.getElementById('vibeBtn');
